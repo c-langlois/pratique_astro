@@ -1,0 +1,8 @@
+.btn {
+    @apply border-2
+        rounded-md
+        border-purple-600
+        bg-purple-300
+        px-3
+        py-3;
+}

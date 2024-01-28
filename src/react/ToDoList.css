@@ -1,0 +1,7 @@
+.btn {
+    @apply border-2 bg-white border-blue-200 px-2 py-1 rounded-xl;
+}
+
+.input-text {
+    @apply border px-2 py-1 rounded-xl;
+}

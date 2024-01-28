@@ -1,5 +1,5 @@
 ---
-import ToDoList_component from "../react/ToDoList.jsx";
+import RandomQuotes_component from "../react/RandomQuotes.jsx";
 ---
 
 <html lang="en">
@@ -11,8 +11,10 @@ import ToDoList_component from "../react/ToDoList.jsx";
     <title>Astro</title>
   </head>
   <body>
-    <h1 class="flex flex-col justify-center items-center my-4">Todo List</h1>
-    <ToDoList_component client:idle />
+    <h1 class="flex flex-col justify-center items-center my-4">
+      Random Quotes from an API
+    </h1>
+    <RandomQuotes_component client:idle />
   </body>
 </html>
 

@@ -10,8 +10,28 @@
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
-    <h1>Astro - pratique</h1>
-    <a href="/toDoList">To do list</a>
+  <body class="flex flex-col items-center">
+    <h1 class="my-4">Astro - pratique</h1>
+    <a href="/toDoList">To do list &gt;</a>
+    <a href="/counter">Counter &gt;</a>
+    <a href="/calculator">Calculator &gt;</a>
+    <a href="/randomQuotes">Random Quotes &gt;</a>
+    <a href="/weather">Weather &gt;</a>
   </body>
 </html>
+
+<style>
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+
+  a {
+    @apply text-blue-500;
+  }
+</style>
